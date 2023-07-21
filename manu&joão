@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Convite Interativo</title>
+  <style>
+    body {
+          margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+       background-image: url(https://www.eflora.co.jp/images_member/213858/201912/0005890493_l.jpg);
+      background-size: 50%;
+      background-position: center;
+      <p style="background-color: #ea82a2">…</p>
+      font-family: Silent Reaction, sans-serif;
+    }
+
+    .convite {
+      background-color: rgba(255, 255, 255, 0.8);
+      width: 400px;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 30px;
+      color: #333;
+    }
+
+    p {
+      font-size: 18px;
+      color: #454545;
+    }
+
+    .confirmar {
+      background-color: #ea82a2;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      border-radius: 5px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+    }
+
+    .confirmar:hover {
+      background-color: #ea82a2;
+    }
+  </style>
+</head>
+<body>
+  <div class="convite">
+    <h1>Convite de Casamento</h1>
+    <p>Olá! Você está convidado para o nosso grande dia. Venham comemorar conosco este dia memorável!</p> 
+    "Para que todos vejam, e saibam, e considerem, e juntamente entendam que a mão do Senhor fez isto" (Isaías 41:20)</p>
+    <p>Data: 29 de outubro de 2023</p>
+    <p>Local: <a href="https://goo.gl/maps/XPhDdXBGhqp7cKLs5">Endereço do Local</a></p>
+    <p>Por favor, confirme sua presença clicando no botão abaixo:</p>
+    <a href="link-para-confirmacao" class="confirmar">Confirmar Presença</a>
+  </div>
+</body>
+</html>
